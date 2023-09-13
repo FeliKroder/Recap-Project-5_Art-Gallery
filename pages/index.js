@@ -25,7 +25,11 @@ export default function HomePage() {
     <div>
       <h1>Art Gallery</h1>
       <ArtPieces pieces={data} />
-      <Spotlight image={randomArt.imageSource} artist={randomArt.artist} />
+      <Spotlight
+        image={randomArt.imageSource}
+        artist={randomArt.artist}
+        name={randomArt.name}
+      />
     </div>
   );
 }
