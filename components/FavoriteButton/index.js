@@ -8,7 +8,7 @@ export default function FavoriteButton({
 }) {
   const { isFavorite } = artPiecesInfo;
   return (
-    <button onClick={() => onToggleFavorite(slug)}>
+    <button type="button" onClick={() => onToggleFavorite(slug)}>
       {isFavorite ? "Remove from favorites" : "Add to favorites"}
     </button>
   );

@@ -1,4 +1,3 @@
-import FavoriteButton from "@/components/FavoriteButton";
 import Spotlight from "@/components/Spotlight";
 
 export default function SpotlightPage({
@@ -17,8 +16,6 @@ export default function SpotlightPage({
         image={randomArt.imageSource}
         artist={randomArt.artist}
         name={randomArt.name}
-      />
-      <FavoriteButton
         artPiecesInfo={artPiecesInfo}
         onToggleFavorite={onToggleFavorite}
         slug={randomArt.slug}
