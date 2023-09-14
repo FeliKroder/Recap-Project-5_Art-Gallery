@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
   const [slug, setSlug] = useState("");
 
   function handleToggleFavorite(slug) {
-    // setSlug(slug);
+    setSlug(slug);
 
     setArtPiecesInfo((artPiecesInfo) => {
       // find the art piece in the state
